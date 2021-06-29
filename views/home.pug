@@ -1,0 +1,68 @@
+extends base.pug
+
+
+block scripts 
+    script(src="/static/index.js")
+
+block style
+    style
+        include ../static/style.css
+
+block content 
+    
+    
+    section#introSection
+        div Welcome to Avadhoot's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img1
+                    img(src="/static/1.png")
+                
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/2.png")
+                
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/3.png")
+
+               
+    section#sponsorsSection
+        h2 Our Sponsors
+        div.card2
+            
+            div.card-box
+                div.card-img1
+                    img(src="/static/Google.png")
+        div.card2
+            
+            div.card-box
+                div.card-img1
+                    img(src="/static/Microsoft.png")
+        div.card2
+            
+            div.card-box
+                div.card-img1
+                    img(src="/static/Amazon.png")
+                
+        div.card2
+            
+            div.card-box
+                div.card-img1
+                    img(src="/static/Apple.png")
+        div.card2
+            
+            div.card-box
+                div.card-img1
+                    img(src="/static/Netflix.png")
+    

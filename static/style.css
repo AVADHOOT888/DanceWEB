@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+#navbar{
+    
+    background-color:#ce5656;
+    font-family: 'Yeon Sung' ;
+    padding: 25px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    color:white;
+   text-decoration: none;
+    padding: 40px 35px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: #fbd6d6c7;
+}
+#sponsorsSection h2{
+  text-align: center;
+  margin-top:23px;
+
+}
+#missionSection{
+    height: 326px;; 
+    width: 100%;
+    margin: auto;
+}
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+
+.card{
+border:2px solid black;
+border-radius:20px;
+margin:24px 44px;
+width:25%;
+height: 180px;
+display: inline-block;
+
+
+
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer{
+    display:flex;
+    color:white;
+    background-color: black;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+
+    height:100px;
+    align-items: center;
+    margin:4px 90px;
+}
+
+.card2{
+    
+    
+    margin:24px 53px;
+    width:8%;
+    height: 180px;
+    display: inline-block;
+    
+    
+    
+    }
+    .card2 h3{
+        text-align: center;
+        margin: 0 12px;
+        margin-top: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+.card2 img{
+
+    height:100px;
+    align-items: center;
+    margin:44px -7px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
