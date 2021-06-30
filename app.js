@@ -14,7 +14,7 @@ const contactSchema = new mongoose.Schema({
   });
   const Contact = mongoose.model('Contact', contactSchema);
 
-const port=80;
+
 app.use('/static', express.static('static')) // For serving static files
 app.use(express.urlencoded())
 
@@ -53,6 +53,5 @@ app.get('/services', (req, res)=>{
 })
 
 // START THE SERVER
-app.listen(port, ()=>{
-    console.log(`The application started successfully on port ${port}`);
-});
+app.listen(process.env.PORT || 3000, 
+	() => console.log("Server is running..."));
